@@ -188,4 +188,4 @@ window.GALLERY = [
 ];
 
 /* Imágenes del hero (slideshow en portada). */
-window.HERO_SLIDES = ["hero-burger.jpg", "hero-slowbeef.jpg", "exterior.jpg"];
+window.HERO_SLIDES = ["hero-slowbeef.jpg", "exterior.jpg"];
