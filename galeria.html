@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Galería · KRANCH Fried Station — Valencia</title>
+<meta name="description" content="Galería de KRANCH Fried Station: patatas belgas cargadas, burgers de Angus y nuestro local en el Comte d'Altea, Valencia." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+<meta name="theme-color" content="#0d1830" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Galería · KRANCH Fried Station — Valencia" />
+<meta property="og:description" content="Patatas belgas cargadas, burgers de Angus y nuestro local en el Comte d'Altea, Valencia." />
+<meta property="og:image" content="assets/hero-burger.jpg" />
+<link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+
+<nav id="nav">
+  <a href="index.html" class="brand"><b>KRA<span>N</span>CH</b><small>Fried Station</small></a>
+  <button id="burger" aria-label="Menú" aria-expanded="false"><span></span><span></span><span></span></button>
+  <div class="nav-menu" id="navLinks">
+    <ul class="links">
+      <li><a href="index.html" data-i18n="nav.home">Inicio</a></li>
+      <li><a href="carta.html" data-i18n="nav.menu">Carta</a></li>
+      <li><a href="galeria.html" class="active" data-i18n="nav.gallery">Galería</a></li>
+      <li><a href="resenas.html" data-i18n="nav.reviews">Reseñas</a></li>
+      <li><a href="contacto.html" data-i18n="nav.contact">Contacto</a></li>
+    </ul>
+    <div class="nav-actions">
+      <div class="lang-switch">
+        <button class="lang-btn" data-lang="es">ES</button>
+        <button class="lang-btn" data-lang="en">EN</button>
+      </div>
+      <a href="contacto.html" class="btn-cta" data-i18n="nav.cta">Cómo llegar</a>
+    </div>
+  </div>
+</nav>
+
+<aside id="openStatus" class="is-closed" aria-live="polite">
+  <span class="st-dot"></span>
+  <span><span class="st-main"></span><span class="st-sub"></span></span>
+</aside>
+
+<a id="waFab" class="wa-fab" href="#" rel="noopener" aria-label="WhatsApp">
+  <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M.057 24l1.687-6.163a11.867 11.867 0 0 1-1.587-5.946C.16 5.335 5.495 0 12.05 0a11.817 11.817 0 0 1 8.413 3.488 11.824 11.824 0 0 1 3.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 0 1-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.86 9.86 0 0 0 1.518 5.262l-.999 3.648 3.97-1.022zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+</a>
+
+<header class="page-head">
+  <div class="wrap center">
+    <span class="kicker" data-i18n="gallery.kicker">Galería</span>
+    <h1 class="h-title" data-i18n="gallery.title">El sabor, en imágenes</h1>
+    <p class="lead" data-i18n="gallery.sub">Patatas cargadas, burgers y nuestra esquina del Eixample.</p>
+  </div>
+</header>
+
+<main class="section" style="padding-top:0">
+  <div class="wrap">
+    <div class="gal-grid" id="galleryGrid"></div>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <b>KRA<span>N</span>CH</b>
+        <p data-i18n="footer.tagline">Fried Station · Carrer del Comte d'Altea, 36 · Valencia</p>
+      </div>
+      <div class="foot-col">
+        <h4 data-i18n="footer.explore">Explora</h4>
+        <a href="index.html" data-i18n="nav.home">Inicio</a>
+        <a href="carta.html" data-i18n="nav.menu">Carta</a>
+        <a href="galeria.html" data-i18n="nav.gallery">Galería</a>
+        <a href="resenas.html" data-i18n="nav.reviews">Reseñas</a>
+        <a href="contacto.html" data-i18n="nav.contact">Contacto</a>
+      </div>
+      <div class="foot-col">
+        <h4 data-i18n="footer.contact">Contacto</h4>
+        <a id="footPhone" href="#">624 09 64 47</a>
+        <p>Carrer del Comte d'Altea, 36<br>46005 València</p>
+        <a href="https://www.instagram.com/kranch34/" target="_blank" rel="noopener">@kranch34</a>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span data-i18n="footer.rights">© 2026 KRANCH Fried Station · Valencia</span>
+      <span data-i18n-html="footer.credit">Diseño web por Wertical Studio</span>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/i18n.js"></script>
+<script src="assets/menu-data.js"></script>
+<script src="assets/reviews-data.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>
